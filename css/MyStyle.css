@@ -1,0 +1,470 @@
+/*----Heading----*/
+h1 {
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 2.9rem;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.9rem;
+  color: black;
+  font-family: bavalor;
+}
+
+/*----paragraphs----*/
+p {
+  font-size: 1rem;
+  color: rgba(78, 78, 78, 0.959);
+  line-height: 180%;
+  font-weight: 600;
+}
+
+/* buttons */
+.btn-styles {
+  font-weight: bold;
+  color: #f8f8f8;
+  border: 1px solid #8484eb;
+}
+.btn-styles:hover {
+  background-color: #1c04f8;
+}
+
+/*------Start navbar-----------*/
+.navbar {
+  background-color: rgba(204, 204, 204, 0.07) !important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: #8484eb 2px solid;
+}
+.navbar .nav-item .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: rgba(78, 78, 78, 0.959);
+  letter-spacing: 0.10rem;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #1c04f8;
+}
+.navbar .navbar-nav .active > .nav-link {
+  color: #1c04f8;
+}
+.navbar .navbar-brand {
+  color: #1c04f8;
+  font-family: bavalor;
+  font-weight: 500;
+  font-size: 2.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.30rem;
+}
+.navbar .navbar-brand:hover {
+  color: #1c04f8;
+}
+.navbar .navbar-toggler {
+  color: #8484eb;
+  border-color: #8484eb;
+  background-color: #8484eb;
+}
+
+/*------------Start Slider---------------------*/
+.slider-show {
+  border-bottom: 2px solid #8484eb;
+  /* carousel indicator  */
+}
+.slider-show .carousel-item {
+  height: 500px;
+}
+.slider-show .carousel-item p {
+  font-size: 1.3rem;
+  color: #f8f8f8;
+  line-height: 180%;
+}
+.slider-show .carousel-img-1 {
+  background-image: -moz-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+  background-image: linear-gradient(#474747, rgba(5, 5, 5, 0.473)), url(../images/image1.jpg);
+  background-size: cover;
+}
+.slider-show .carousel-img-2 {
+  background-image: -moz-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image2.jpg);
+  background-image: linear-gradient(#474747, rgba(5, 5, 5, 0.473)), url(../images/image2.jpg);
+  background-size: cover;
+}
+.slider-show .carousel-img-3 {
+  background-image: -moz-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#474747), to(rgba(5, 5, 5, 0.473))), url(../images/image3.jpg);
+  background-image: linear-gradient(#474747, rgba(5, 5, 5, 0.473)), url(../images/image3.jpg);
+  background-size: cover;
+}
+.slider-show .carousel-indicators li {
+  background-color: #f8f8f8;
+}
+.slider-show .carousel-indicators li.active {
+  background-color: #1c04f8;
+}
+
+/*------------Start Home icon---------------------*/
+.home-icon {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.style-hover {
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+.style-hover .icon {
+  color: rgba(78, 78, 78, 0.959);
+  font-size: 1.7rem;
+}
+.style-hover:hover {
+  -webkit-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+}
+.style-hover:hover .icon, .style-hover:hover h3, .style-hover:hover p {
+  color: #1c04f8;
+}
+.style-hover:hover h3 {
+  letter-spacing: 0.1rem;
+  text-shadow: 5px 5px 5px rgba(78, 78, 78, 0.959);
+}
+
+/*------------Start Image Home text---------------------*/
+.image-home-text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 200px;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.48), rgba(111, 111, 111, 0.9)), url(../images/lights.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-bottom: #8484eb 2px solid;
+  border-top: #8484eb 2px solid;
+}
+.image-home-text h2 {
+  color: black;
+  font-family: bavalor;
+  font-weight: bold;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-top: 5Px;
+  padding-bottom: 5px;
+  /*   -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease; */
+  -webkit-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  color: white;
+}
+.image-home-text p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+/*------------Start Info text---------------------*/
+.info-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.info-text .text-style {
+  cursor: pointer;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+.info-text .text-style:hover {
+  -webkit-box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+  box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+}
+.info-text .text-style:hover h3 {
+  letter-spacing: 0.1rem;
+  text-shadow: 5px 5px 5px rgba(78, 78, 78, 0.959);
+}
+.info-text .text-style:hover p, .info-text .text-style:hover h3 {
+  color: #1c04f8;
+}
+.info-text .text-style:hover .btn-styles {
+  background-color: #1c04f8;
+}
+
+/*------------Start Info text---------------------*/
+.image-audio-play {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: #8484eb 2px solid;
+  border-top: #8484eb 2px solid;
+  min-height: 200px;
+  background-image: linear-gradient(#050505, rgba(13, 14, 19, 0.49)), url(../images/media.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.image-audio-play a .icon-i {
+  font-size: 70px;
+  color: #f8f8f8;
+}
+.image-audio-play a .icon-i:hover {
+  color: #1c04f8;
+}
+.image-audio-play h2 {
+  font-family: bavalor;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.12rem;
+  -webkit-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  color: white;
+}
+
+/*------------Start Gallery photos---------------------*/
+.Gallery {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Gallery h1 {
+  color: black;
+  font-family: bavalor;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+/*------------Start Newslettres---------------------*/
+.Newslettres {
+  border-bottom: #8484eb 2px solid;
+  border-top: #8484eb 2px solid;
+  background-color: rgba(78, 78, 78, 0.959);
+  padding: 20px;
+  padding-bottom: 60px;
+}
+.Newslettres h2 {
+  font-family: bavalor;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  -webkit-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+}
+.Newslettres p {
+  color: white;
+  padding-bottom: 20px;
+}
+.Newslettres .styles {
+  font-weight: bold;
+  color: #f8f8f8;
+  border: 1px solid #8484eb;
+}
+.Newslettres .styles:hover {
+  background-color: #1c04f8;
+}
+
+/*-------------------------------About US---------------------------------------------------------------------*/
+.Page-header {
+  height: 200px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-image: url(../images/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  border-bottom: #8484eb 2px solid;
+}
+.Page-header h1 {
+  color: white;
+  font-family: bavalor;
+  font-weight: 200;
+}
+.Page-header p {
+  color: white;
+}
+
+.About {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.About h1 {
+  color: black;
+  font-family: bavalor;
+  margin-bottom: 19px;
+}
+.About .about-img {
+  margin-top: -70px;
+}
+
+/*-------------------------------About US Cards-------------------------------------------------------------------*/
+.icon-boxes {
+  color: black;
+}
+.icon-boxes .card {
+  background-color: #8484eb;
+  -webkit-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  -moz-box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+  box-shadow: -8px -1px 19px 2px rgba(132, 132, 235, 0.82);
+}
+.icon-boxes .card h3 {
+  color: white;
+}
+.icon-boxes .card-y {
+  background-color: rgba(78, 78, 78, 0.959);
+  color: white;
+}
+.icon-boxes .card-y p {
+  color: white;
+}
+
+/*-------------------------------testimonilas-------------------------------------------------------------------*/
+.testimonilas {
+  padding: 30px;
+}
+.testimonilas h2 {
+  padding-bottom: 20px;
+}
+.testimonilas .slider p {
+  color: white;
+}
+
+/*-------------------------------Prices Plan-------------------------------------------------------------*/
+.Prices {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.Prices .card-header {
+  background-color: rgba(78, 78, 78, 0.959);
+  color: white;
+}
+.Prices .card-title {
+  font-size: 34px;
+  color: red;
+}
+.Prices .card-title span {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.Prices .btn-custom {
+  font-weight: bold;
+  color: #f8f8f8;
+  border: 1px solid #8484eb;
+  background-color: #8484eb;
+  color: white;
+}
+.Prices .btn-custom:hover {
+  background-color: #1c04f8;
+}
+.Prices .card-footer {
+  background-color: rgba(78, 78, 78, 0.959);
+  padding: 5px;
+}
+.Prices .card-footer h5 {
+  color: white;
+}
+.Prices .list-group {
+  padding: 15px;
+}
+
+/*-------------------------------Accordination-------------------------------------------------------------*/
+.Accordination {
+  padding: 20px;
+  background-color: rgba(78, 78, 78, 0.959);
+}
+.Accordination h1 {
+  font-family: bavalor;
+  font-weight: 200;
+  color: #fcfcfc;
+  margin-bottom: 40px;
+}
+.Accordination .card-header {
+  margin-bottom: 0px !important;
+}
+.Accordination .btn {
+  color: black;
+}
+.Accordination .h3 {
+  margin-bottom: 0;
+}
+
+/*-------------------------------Blog-------------------------------------------------------------*/
+.blogPost {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.blogPost img {
+  width: 350px;
+  height: 300px;
+}
+.blogPost .card-header {
+  padding: 20px;
+}
+.blogPost .card-footer {
+  padding: 21px;
+}
+.blogPost .card-body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.blogPost .card-text {
+  text-transform: capitalize;
+}
+.blogPost .card-text small {
+  font-weight: 700;
+}
+.blogPost .card-one {
+  background-color: #8484eb;
+}
+.blogPost .card-one small {
+  color: black;
+}
+.blogPost .card-two {
+  background-color: #8484eb;
+}
+.blogPost .card-two small {
+  color: white;
+}
+.blogPost .card-three {
+  background-color: #8484eb;
+}
+.blogPost .card-three small {
+  color: black;
+}
+
+/*-------------------------------Contact US-------------------------------------------------------------*/
+.contactUs {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/*-------------------------------Staff-------------------------------------------------------------*/
+.Staff h1 {
+  font-family: bavalor;
+}
+
+/*# sourceMappingURL=MyStyle.css.map */

@@ -1,0 +1,543 @@
+//1rem = 16px
+//Rules
+$main-color-hover-border : rgb(28, 4, 248);
+$color-links : rgba(78, 78, 78, 0.959);
+$font-size :1rem;
+$border-headers : rgb(132, 132, 235);
+$color-buttons-Headres : rgb(248, 248, 248);
+/*----Heading----*/
+h1 {
+    color: $color-buttons-Headres;
+    font-weight: bold;
+    font-size: 2.9rem;
+   
+}
+h3 {
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+    color: black;
+    font-family: bavalor;
+    
+}
+/*----paragraphs----*/
+p{
+    font-size: 1rem;
+    color: $color-links;
+    line-height: 180%;
+    font-weight: 600;
+}
+/* buttons */
+.btn-styles {
+    font-weight: bold;
+    color: $color-buttons-Headres;
+    border: 1px solid $border-headers;
+    &:hover {
+       
+        background-color: $main-color-hover-border;
+        
+    }
+}
+
+
+/*------Start navbar-----------*/
+.navbar {
+  
+    background-color: rgba(204, 204, 204, 0.07) !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: $border-headers 2px solid;
+    .nav-item .nav-link {
+       
+        font-size: $font-size;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: $color-links;
+        letter-spacing: 0.10rem;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        &:hover {
+            color: $main-color-hover-border;
+            
+        }
+    } 
+.navbar-nav .active >.nav-link {
+    color: $main-color-hover-border;
+    }
+   .navbar-brand {
+    color: $main-color-hover-border;
+    font-family: bavalor;
+    font-weight: 500;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.30rem;
+    
+    &:hover {
+        color: $main-color-hover-border;
+    }
+   }
+.navbar-toggler {
+    color: $border-headers;
+    border-color: $border-headers;
+    background-color: $border-headers;
+}
+}
+/*------------Start Slider---------------------*/
+.slider-show {
+  
+border-bottom: 2px solid $border-headers;
+
+    .carousel-item {
+        height: 500px;
+        
+       
+        p{
+            font-size: 1.3rem;
+            color: $color-buttons-Headres;
+            line-height: 180%;
+        }
+    }
+    .carousel-img-1 {
+        background-image: -moz-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+        background-image: -webkit-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+        background-image: linear-gradient(rgb(71, 71, 71),rgba(5, 5, 5, 0.473)), url(../images/image1.jpg);
+        background-size: cover;
+    }
+    .carousel-img-2 {
+        background-image: -moz-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+        background-image:-webkit-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image2.jpg);
+        background-image:linear-gradient(rgb(71, 71, 71),rgba(5, 5, 5, 0.473)), url(../images/image2.jpg);
+        background-size: cover;
+    }
+    .carousel-img-3 {
+        background-image: -moz-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image1.jpg);
+        background-image:-webkit-gradient(linear,left top, left bottom,from(rgb(71, 71, 71)),to(rgba(5, 5, 5, 0.473))), url(../images/image3.jpg);
+        background-image:linear-gradient(rgb(71, 71, 71),rgba(5, 5, 5, 0.473)), url(../images/image3.jpg);
+        background-size: cover;       
+    }
+    /* carousel indicator  */
+    .carousel-indicators li {
+        background-color: $color-buttons-Headres;
+    }
+    .carousel-indicators li.active {
+        background-color: $main-color-hover-border;
+       
+    }    
+}
+/*------------Start Home icon---------------------*/
+.home-icon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+padding-top: 80px;
+padding-bottom: 80px;
+
+}
+
+.style-hover {
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+
+    .icon{
+
+        color : $color-links;
+        font-size: 1.7rem;
+    }
+
+    &:hover{
+    .icon , h3 , p {
+        color : $main-color-hover-border;
+        
+       }
+       h3  {
+        letter-spacing: 0.1rem;
+        text-shadow:5px 5px 5px $color-links;
+       
+       }
+    -webkit-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+    -moz-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+    box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+}
+
+}
+
+/*------------Start Image Home text---------------------*/
+.image-home-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+min-height: 200px;
+background-image: linear-gradient(rgba(5, 5, 5, 0.48), rgba(111, 111, 111, 0.9)), url(../images/lights.jpg);
+background-attachment: fixed;
+background-size: cover;
+border-bottom: $border-headers 2px solid;
+border-top: $border-headers 2px solid;
+
+h2 {
+    color:black;
+    font-family: bavalor;
+    font-weight: bold;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-top: 5Px;
+    padding-bottom: 5px;
+   
+
+  /*   -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease; */
+    -webkit-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+-moz-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+color: white;
+}
+
+
+p{
+
+    color:  white;
+    font-size: 1.3rem;
+}
+
+
+}
+/*------------Start Info text---------------------*/
+.info-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+padding-top: 80px;
+padding-bottom: 80px;
+
+
+
+.text-style {
+    cursor: pointer;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+
+
+    &:hover  {
+        -webkit-box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+        -moz-box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+        box-shadow: -2px 2px 7px 0px rgba(132, 132, 235, 0.82);
+    
+    h3 {
+        letter-spacing: 0.1rem;
+        text-shadow:5px 5px 5px $color-links;
+    }
+    p,h3 {
+        color : $main-color-hover-border;
+    }
+    .btn-styles {
+        background-color: $main-color-hover-border;
+    }
+}  
+}
+}
+
+/*------------Start Info text---------------------*/
+.image-audio-play {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: $border-headers 2px solid;
+    border-top: $border-headers 2px solid;
+    min-height: 200px;
+    background-image:linear-gradient(rgb(5, 5, 5), rgba(13, 14, 19, 0.49)), url(../images/media.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    a {
+        .icon-i {
+
+            font-size: 70px;
+            color: $color-buttons-Headres;
+        
+            &:hover {
+                color:  $main-color-hover-border;
+                     }
+                }
+                
+
+    }
+    h2 {
+        font-family: bavalor;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 0.12rem;
+        -webkit-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        -moz-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        color: white;
+    }
+
+
+}
+
+/*------------Start Gallery photos---------------------*/
+.Gallery{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+    h1 {
+        color: black;
+        font-family: bavalor;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+}
+/*------------Start Newslettres---------------------*/
+.Newslettres {
+    
+border-bottom: $border-headers 2px solid;
+border-top: $border-headers 2px solid;
+background-color: $color-links;
+padding: 20px;
+padding-bottom: 60px;
+h2 {
+  
+    font-family: bavalor;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    -webkit-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+    -moz-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+    box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+}
+p {
+
+color: white;
+padding-bottom: 20px;
+
+}
+.styles {
+    font-weight: bold;
+    color: $color-buttons-Headres;
+    border: 1px solid $border-headers;
+    &:hover {
+        background-color: $main-color-hover-border;
+    }
+}
+}
+/*-------------------------------About US---------------------------------------------------------------------*/
+
+.Page-header {
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url(../images/image1.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    border-bottom: $border-headers 2px solid;
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: bavalor;
+    font-weight: 200;
+}
+p{
+    color: white;
+}
+
+}
+.About {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: bavalor;
+        margin-bottom: 19px;
+
+       
+    }
+    .about-img {
+        margin-top: -70px;
+    }
+
+}
+/*-------------------------------About US Cards-------------------------------------------------------------------*/
+.icon-boxes {
+
+    color:black;
+    .card {
+        background-color: $border-headers;
+        -webkit-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        -moz-box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        box-shadow: -8px -1px 19px 2px rgba(132,132,235,0.82);
+        h3 {
+            color: white;
+        }
+    }
+    .card-y {
+        background-color: $color-links;
+        color: white;
+        p {
+            color:white;
+        }
+    }
+}
+/*-------------------------------testimonilas-------------------------------------------------------------------*/
+
+.testimonilas {
+
+padding: 30px;
+
+h2 {
+    padding-bottom: 20px;
+}
+.slider {
+    p {
+        color: white;
+    }
+}
+
+}
+/*-------------------------------Prices Plan-------------------------------------------------------------*/
+
+.Prices {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .card-header {
+        background-color: $color-links;
+        color: white;
+    }
+    .card-title {
+        font-size: 34px;
+        color: red;
+        span {
+            font-size: 15px;
+            font-weight: bold;
+            color: black;  
+        }
+        
+    }
+    .btn-custom {
+        font-weight: bold;
+        color: $color-buttons-Headres;
+        border: 1px solid $border-headers;
+        background-color: $border-headers;
+        color:white;
+        &:hover{
+           
+            background-color: $main-color-hover-border;
+        }
+    }
+    .card-footer {
+        background-color: $color-links;
+        padding: 5px;
+       h5{
+           color: white;
+
+       }
+    }
+    .list-group {
+        padding: 15px;
+    }
+
+}
+/*-------------------------------Accordination-------------------------------------------------------------*/
+.Accordination {
+    padding: 20px;
+    background-color: $color-links;
+    h1 {
+        font-family: bavalor;
+        font-weight: 200;
+        color: rgb(252, 252, 252);
+        margin-bottom: 40px;
+    }
+    .card-header {
+        margin-bottom: 0px !important;
+    }
+    .btn{
+        color:black;
+    }
+    .h3 {
+        margin-bottom: 0;
+    }
+}
+/*-------------------------------Blog-------------------------------------------------------------*/
+.blogPost {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    img {
+        width: 350px;
+        height: 300px;
+    }
+  
+.card-header {
+    padding: 20px;
+}
+.card-footer {
+    padding: 21px;
+}
+.card-body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card-text {
+    text-transform: capitalize;
+    small {
+        font-weight: 700;
+    }
+}
+
+.card-one {
+
+    background-color: $border-headers;
+    small {
+        color: black;
+       
+    }
+}
+.card-two {
+    background-color: $border-headers;
+    small {
+        color: white;
+      
+    }
+}
+.card-three {
+    background-color: $border-headers;
+    small {
+        color: black;
+        
+    }
+
+}
+}
+
+/*-------------------------------Contact US-------------------------------------------------------------*/
+.contactUs {
+
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+}
+/*-------------------------------Staff-------------------------------------------------------------*/
+.Staff {
+    h1 {
+        font-family: bavalor;
+
+    }
+
+}
